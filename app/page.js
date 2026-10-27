@@ -1,0 +1,2 @@
+import Hero from '@/components/Hero';import Brands from '@/components/Brands';import Projects from '@/components/Projects';import About from '@/components/About';import Services from '@/components/Services';import Skills from '@/components/Skills';import Contact from '@/components/Contact';import Footer from '@/components/Footer';
+export default function Page(){return(<><main><Hero/><Brands/><Projects/><About/><Services/><Skills/><Contact/></main><Footer/></>)}

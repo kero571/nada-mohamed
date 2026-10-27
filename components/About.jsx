@@ -1,0 +1,6 @@
+import Img from './ui/Img';import Icon from './ui/Icon';import {ABOUT as a,HERO,SITE} from '@/data/site';
+export default function About(){return(<section id="about" aria-labelledby="about-h" className="mx-auto grid max-w-[1320px] gap-10 px-5 py-14 lg:grid-cols-[.8fr_1.2fr] lg:items-center lg:gap-20 lg:px-10 lg:py-24">
+<div className="reveal mx-auto w-full max-w-[340px] lg:max-w-[400px] lg:rounded-[36px] lg:bg-peach lg:p-3 lg:shadow-[0_30px_60px_-30px_rgba(150,50,10,.45)]"><div className="relative aspect-[4/5] overflow-hidden rounded-t-full bg-[radial-gradient(ellipse_80%_70%_at_60%_30%,#f0561a_0%,#a52a0c_40%,#3a0904_100%)] lg:rounded-[28px]"><Img src={HERO.img} alt={HERO.alt} fill loading="lazy" sizes="(min-width:1024px) 400px,340px" className="object-cover object-[56%_30%]"/></div></div>
+<div className="reveal"><p className="label mb-3">{a.label}</p><h2 id="about-h" className="text-3xl font-extrabold leading-[1.1] tracking-tight lg:text-5xl">{a.title} <span className="text-brand">{a.accent}</span></h2>
+<div className="mt-5 grid max-w-2xl gap-4 text-[15px] leading-7 text-mute">{a.p.map(x=><p key={x.slice(0,12)}>{x}</p>)}</div>
+<a href={SITE.behance} target="_blank" rel="noopener noreferrer me" className="btn mt-6 border border-ink/80 text-ink hover:border-brand hover:text-brand lg:hidden">{a.cta}<Icon n="arrow" className="h-4 w-4"/></a></div></section>)}
