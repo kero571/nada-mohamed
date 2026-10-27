@@ -31,7 +31,7 @@ export default function Header() {
         ))}
       </nav>
 
-      <a href="#contact" className="group hidden items-center gap-3 rounded-full bg-white py-1.5 pe-1.5 ps-5 text-sm font-bold text-ink shadow-lg transition duration-300 hover:-translate-y-0.5 lg:inline-flex">
+      <a href="#contact" className="mt-2 group hidden items-center gap-3 rounded-full bg-white py-1.5 pe-1.5 ps-5 text-sm font-bold text-ink shadow-lg transition duration-300 hover:-translate-y-0.5 lg:inline-flex">
         Contact Me
         <span className="grid h-9 w-9 place-items-center rounded-full bg-brand text-white transition duration-300 group-hover:translate-x-0.5">
           <Icon n="arrow" className="h-4 w-4" />
