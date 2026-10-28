@@ -3,6 +3,9 @@ import { CONTACT as c, SITE, wa } from "@/data/site";
 const S = [
   ["behance", "Behance", SITE.behance],
   ["linkedin", "LinkedIn", SITE.linkedin],
+  ["facebook", "facebook", SITE.facebook],
+  ["instagram", "instagram", SITE.instagram],
+  ["tiktok", "tiktok", SITE.tiktok],
 ].filter((x) => x[2]);
 export default function Contact() {
   return (
