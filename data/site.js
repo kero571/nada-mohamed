@@ -8,7 +8,7 @@ export const SITE = {
   linkedin: "https://www.linkedin.com/in/nada-mohammed-ghonem",
   tiktok: "https://www.tiktok.com/@nada_mohamed647?_r=1&_t=ZS-9AvmoXlQ3te",
   facebook: "https://www.facebook.com/profile.php?id=61595424131489",
-  country: "", // مثال: 'EG' — لو اتملت بتضاف للـ GEO
+  country: "EG", // مثال: 'EG' — لو اتملت بتضاف للـ GEO
   title:
     "Nada Mohamed | Graphic Designer — Branding, Social Media & Visual Identity",
   description:
